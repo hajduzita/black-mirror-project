@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    opacity: 0.5;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+body{
+   /* background-color: rgb(220, 220, 220);*/
+background-color:white;
+}
+.img-banner{
+    display: none;
+}
+
+.intro{
+    width: 100%;
+}
+
+.intro h2 {
+    padding: 20px 30px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #9B9696;
+    line-height: 40px;
+    background-color: #2F2424;
+}
+
+.intro p {
+    padding: 10px 30px 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(61, 63, 62);
+    line-height: 20px; 
+}
+
+span{
+    font-size: 13px;
+}
+
+hr{
+    padding-bottom:5px;
+    background-color: #2F2424;
+}
+
+.cover-img {
+    width:50%;
+}
+
+.title-row{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2F2424;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.cover-img{
+    padding: 5px 0;
+    opacity: 1;
+}
+
+.cover-img:hover{
+    opacity: 0.9;
+    transition: 0.15s ease;
+}
+
+.episode-info{
+    padding: 10px 30px;
+}
+.episode-info p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(61, 63, 62);
+    line-height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+.episode-list h5 {
+    padding-bottom: 10px;
+}
+#end-part {
+    background-color: white;
+    border-top: 2px solid black;
+    background-color: black;
+}
+
+#end-part p {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(61, 63, 62);
+    padding: 10px auto;
+}
+
+#netflix{
+    color:red;
+}
+
+.links{
+    text-align: center;
+}
+
+.links a{
+    display: inline-block;
+}
+
+.links i {
+    font-size: 40px;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    color:rgb(61, 63, 62);
+}
+
+#end-part{
+    padding-top:20px;
+}
+
+#end-part p {
+    padding-bottom: 12px;
+}
+
+
+@media only screen and (min-width:768px) {
+
+    .intro h2{
+        text-align: center;
+    }
+    .img-banner{
+        display: block;
+        width:100%;
+        padding-bottom: 20px;
+        background-color: rgb(207, 220, 216);
+    }
+
+    .episode-list{
+        padding: 20px 40px;
+    }
+
+    .intro p{
+        padding: 10px 70px;
+    }
+    .episode-info p{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top:20px;
+        padding-bottom: 10px;
+    }
+
+    #end-part{
+        padding-top:20px;
+   
+    }
+
+    .links i {
+        font-size: 40px;
+        padding-left: 25px;
+        padding-top:15px;
+        margin-bottom: 25px;
+        color:rgb(61, 63, 62);
+    }
+
+}
+
+@media only screen and (min-width:1000px){
+    hr{
+        display:none;
+    }
+    .wrapper{
+        width:100%;
+    }
+    .img-banner{
+        display:none;
+    }
+    .img-banner-box{
+        background-image: url(../Images/black-mirror-logo.jpg);
+        width:100%;
+        height:100vh;
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+    }
+
+    .intro{
+        position: static;
+        background-color: white;
+    }
+
+    .intro h2 {
+        margin: auto 350px;
+        margin-bottom: 10px;
+    }
+    .intro p{
+        padding: 10px 350px;
+    }
+
+    #first-row .container{
+        display: flex;
+    }
+
+    .episode-list h5{
+        margin-bottom: 10px;
+    }
+
+    .episode-list p{
+        line-height: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #first-row .episode-list{
+        border-top: 2px solid #2F2424;
+        width: 33.3333%;
+        padding: 15px 0px;
+    }
+
+    #s1e1:hover{
+       background-image: url(../Images/bg-national-anthem-soft.jpg);
+       background-size: cover;
+       background-position: center center;
+      transition: ease 0.2s;
+
+    }
+   #s3e1:hover{
+       background-image: url(../Images/bg-nosedive-soft.jpg);
+       background-size: cover;
+       background-position: center center;
+       transition: ease 0.2s;
+   }
+
+   #s2e1:hover{
+       background-image: url(../Images/bg-be-rght-back-soft.jpg);
+       background-size: cover;
+       background-position: center center;
+       transition: ease 0.2s;
+   }
+
+   #s3e4:hover{
+    background-image: url(../Images/bg-san-junipero-soft.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: ease 0.2s;
+   }
+
+   #s3e5:hover{
+    background-image: url(../Images/bg-man\ against\ fire-soft2.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: ease 0.2s;
+   }
+
+   #e4e1:hover {
+    background-image: url(../Images/bg-uss-callister-soft.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: ease 0.2s;
+   }
+
+   .episode-list:hover{
+       background-color: rgb(221, 221, 221);
+       transition: ease 6s;
+   }
+
+   #end-part p {
+    padding: 20px 30px;
+  }
+
+}
+/*
+@media only screen and (min-width:1024px){
+
+    .intro h2 {
+        margin: auto 120px;
+        margin-bottom: 10px;
+    }
+    .intro p{
+        padding: 10px 120px;
+    }
+
+}*/
+
+@media only screen and (min-height: 850px){
+    .intro h2 {
+        margin: auto 120px;
+        margin-bottom: 10px;
+    }
+    .intro p{
+        padding: 10px 120px;
+    }
+}
